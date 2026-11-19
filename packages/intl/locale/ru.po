@@ -694,7 +694,7 @@ msgstr "/ месяц"
 
 #: src/strings.ts:1649
 msgid "#notesnook"
-msgstr "Notesnook"
+msgstr "#notesnook"
 
 #: src/strings.ts:3267
 msgid "✨ Highlights ✨"
@@ -9194,14 +9194,10 @@ msgid ""
 "\n"
 "If your issue is critical (e.g. notes not syncing, crashes etc.), please [join our Discord community](https://go.notesnook.com/discord) for one-to-one support."
 msgstr ""
-"You can track your bug report at [{url}]({url}).\n"
-"\n"
-"Please note that we will respond to your bug report on the link above. **We recommend that you save the above link for later reference.**\n"
-"\n"
-"If your issue is critical (e.g. notes not syncing, crashes etc.), please [join our Discord community](https://go.notesnook.com/discord) for one-to-one support.Вы можете отслеживать свой отчёт об ошибке по адресу [{url}]({url}).\n"
-"\n"
-"Обратите внимание: мы ответим на ваш отчёт по ссылке выше. **Рекомендуем сохранить эту ссылку на будущее.**\n"
-"\n"
+"Вы можете отслеживать свой отчёт об ошибке по адресу [{url}]({url})."
+"\n\n"
+"Обратите внимание: мы ответим на ваш отчёт по ссылке выше. **Рекомендуем сохранить эту ссылку на будущее.**"
+"\n\n"
 "Если ваша проблема критическая (например, заметки не синхронизируются, сбои и т. д.), [присоединяйтесь к нашему сообществу в Discord](https://go.notesnook.com/discord) для индивидуальной поддержки."
 
 #: src/strings.ts:1881
@@ -9210,10 +9206,8 @@ msgid ""
 "\n"
 "Please note that we will respond to your feature request on the link above. **We recommend that you save the above link for later reference.**"
 msgstr ""
-"You can track your feature request at [{url}]({url}).\n"
-"\n"
-"Please note that we will respond to your feature request on the link above. **We recommend that you save the above link for later reference.**Вы можете отслеживать свой запрос функции по адресу [{url}]({url}).\n"
-"\n"
+"Вы можете отслеживать свой запрос функции по адресу [{url}]({url})."
+"\n\n"
 "Обратите внимание: мы ответим на ваш запрос по ссылке выше. **Рекомендуем сохранить эту ссылку на будущее.**"
 
 #: src/strings.ts:962
