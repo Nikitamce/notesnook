@@ -73,6 +73,17 @@ function createFeature<A extends FeatureAvailability>(
           ? strings.reachedLimitOf(l.caption, feature.title.toLowerCase())
           : strings.featureNotAvailableOnPlan(feature.title))
   };
+
+  // This fork intentionally makes every feature and quota available locally,
+  // regardless of the subscription returned by the Notesnook account service.
+  const unlimited = createLimit("infinity", Infinity);
+  f.availability = {
+    free: unlimited,
+    essential: unlimited,
+    pro: unlimited,
+    believer: unlimited,
+    legacyPro: unlimited
+  } as unknown as A;
   Object.defineProperty(f, "title", {
     get() {
       return feature.title;
