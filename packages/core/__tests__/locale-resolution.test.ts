@@ -121,6 +121,15 @@ describe("Locale Detection & Resolution", () => {
       expect(resolveTargetLocale("tr", "en-US")).toBe("tr");
     });
 
+    it("should resolve Russian system and regional locales to Russian", () => {
+      expect(getSupportedLocale("ru")).toBe("ru");
+      expect(getSupportedLocale("ru-RU")).toBe("ru");
+      expect(getSupportedLocale("ru-BY")).toBe("ru");
+      expect(getSupportedLocale("ru_KZ")).toBe("ru");
+      expect(resolveTargetLocale(null, "ru-RU")).toBe("ru");
+      expect(resolveTargetLocale("auto", "ru-RU")).toBe("ru");
+    });
+
     it("should use systemLocale when saved language is empty, auto, or system", () => {
       expect(resolveTargetLocale("", "de-AT")).toBe("de");
       expect(resolveTargetLocale("auto", "fr-FR")).toBe("fr");

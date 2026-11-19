@@ -8,10 +8,10 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"PO-Revision-Date: 2026-11-18 20:57+0300\n"
+"Last-Translator: Russian localization contributors\n"
+"Language-Team: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #: src/strings.ts:134
 msgid " Unlock with password once to enable biometric access."
@@ -67,7 +67,7 @@ msgstr "{count, plural, one {Произошла # ошибка} few {Произ�
 
 #: src/strings.ts:2940
 msgid "{count, plural, one {# file selected} other {# files selected}}"
-msgstr "{count, plural, one {# файл выбран} few {# файла выбрано} many {# файлов выбрано} other {# файла выбрано}}"
+msgstr "{count, plural, one {Выбран # файл} few {Выбрано # файла} many {Выбрано # файлов} other {Выбрано # файла}}"
 
 #: src/strings.ts:1588
 msgid "{count, plural, one {# file} other {# files}}"
@@ -79,11 +79,11 @@ msgstr "{count, plural, one {Выбран # элемент} few {Выбрано 
 
 #: src/strings.ts:2922
 msgid "{count, plural, one {# note successfully imported.} other {# notes successfully imported.}}"
-msgstr "{count, plural, one {# заметка успешно импортирована.} few {# заметки успешно импортированы.} many {# заметок успешно импортировано.} other {# заметки успешно импортированы.}}"
+msgstr "{count, plural, one {Успешно импортирована # заметка.} few {Успешно импортировано # заметки.} many {Успешно импортировано # заметок.} other {Успешно импортировано # заметки.}}"
 
 #: src/strings.ts:60
 msgid "{count, plural, one {# note} other {# notes}}"
-msgstr "{count, plural, one {# заметка} few {# заметки} many {# заметок} other {# заметок}}"
+msgstr "{count, plural, one {# заметка} few {# заметки} many {# заметок} other {# заметки}}"
 
 #: src/strings.ts:2667
 msgid "{count, plural, one {# row} other {# rows}}"
@@ -136,7 +136,7 @@ msgstr "{count, plural, one {Вы действительно хотите уда
 
 #: src/strings.ts:787
 msgid "{count, plural, one {Are you sure you want to move this notebook to {selectedNotebookTitle}?} other {Are you sure you want to move these # notebooks {selectedNotebookTitle}?}}"
-msgstr "{count, plural, one {Вы действительно хотите переместить этот блокнот в {selectedNotebookTitle}?} few {Вы действительно хотите переместить эти # блокнота в {selectedNotebookTitle}?} many {Вы действительно хотите переместить эти # блокнотов в {selectedNotebookTitle}?} other {Вы действительно хотите переместить эти # блокнотов в {selectedNotebookTitle}?}}"
+msgstr "{count, plural, one {Вы действительно хотите переместить этот блокнот в «{selectedNotebookTitle}»?} few {Вы действительно хотите переместить эти # блокнота в «{selectedNotebookTitle}»?} many {Вы действительно хотите переместить эти # блокнотов в «{selectedNotebookTitle}»?} other {Вы действительно хотите переместить эти # блокнота в «{selectedNotebookTitle}»?}}"
 
 #: generated/action-confirmations.ts:82
 msgid "{count, plural, one {Are you sure you want to permanently delete this item?} other {Are you sure you to permanently delete these items?}}"
@@ -786,7 +786,7 @@ msgstr "Сейф хранит ваши заметки в зашифрованн�
 
 #: src/strings.ts:608
 msgid "Abc"
-msgstr "Abc"
+msgstr "АБВ"
 
 #: src/strings.ts:1190
 msgid "About"
@@ -2775,7 +2775,7 @@ msgstr "Описание"
 
 #: src/strings.ts:3286
 msgid "Description is required"
-msgstr ""
+msgstr "Описание обязательно для заполнения"
 
 #: src/strings.ts:1909
 msgid "Desktop app"
@@ -4518,11 +4518,11 @@ msgstr "Последнее изменение"
 
 #: src/strings.ts:3284
 msgid "Last full backup: {date}"
-msgstr ""
+msgstr "Последняя полная резервная копия: {date}"
 
 #: src/strings.ts:3285
 msgid "Last partial backup: {date}"
-msgstr ""
+msgstr "Последняя частичная резервная копия: {date}"
 
 #: src/strings.ts:2469
 msgid "Last used on"
@@ -5194,7 +5194,7 @@ msgstr "Далее"
 
 #: src/strings.ts:3280
 msgid "Next full backup: {date}"
-msgstr ""
+msgstr "Следующая полная резервная копия: {date}"
 
 #: src/strings.ts:2174
 msgid "Next match"
@@ -5206,7 +5206,7 @@ msgstr "В следующем месяце"
 
 #: src/strings.ts:3281
 msgid "Next partial backup: {date}"
-msgstr ""
+msgstr "Следующая частичная резервная копия: {date}"
 
 #: src/strings.ts:2220
 msgid "Next tab"
@@ -9194,14 +9194,10 @@ msgid ""
 "\n"
 "If your issue is critical (e.g. notes not syncing, crashes etc.), please [join our Discord community](https://go.notesnook.com/discord) for one-to-one support."
 msgstr ""
-"You can track your bug report at [{url}]({url}).\n"
-"\n"
-"Please note that we will respond to your bug report on the link above. **We recommend that you save the above link for later reference.**\n"
-"\n"
-"If your issue is critical (e.g. notes not syncing, crashes etc.), please [join our Discord community](https://go.notesnook.com/discord) for one-to-one support.Вы можете отслеживать свой отчёт об ошибке по адресу [{url}]({url}).\n"
-"\n"
-"Обратите внимание: мы ответим на ваш отчёт по ссылке выше. **Рекомендуем сохранить эту ссылку на будущее.**\n"
-"\n"
+"Вы можете отслеживать свой отчёт об ошибке по адресу [{url}]({url})."
+"\n\n"
+"Обратите внимание: мы ответим на ваш отчёт по ссылке выше. **Рекомендуем сохранить эту ссылку на будущее.**"
+"\n\n"
 "Если ваша проблема критическая (например, заметки не синхронизируются, сбои и т. д.), [присоединяйтесь к нашему сообществу в Discord](https://go.notesnook.com/discord) для индивидуальной поддержки."
 
 #: src/strings.ts:1881
@@ -9210,10 +9206,8 @@ msgid ""
 "\n"
 "Please note that we will respond to your feature request on the link above. **We recommend that you save the above link for later reference.**"
 msgstr ""
-"You can track your feature request at [{url}]({url}).\n"
-"\n"
-"Please note that we will respond to your feature request on the link above. **We recommend that you save the above link for later reference.**Вы можете отслеживать свой запрос функции по адресу [{url}]({url}).\n"
-"\n"
+"Вы можете отслеживать свой запрос функции по адресу [{url}]({url})."
+"\n\n"
 "Обратите внимание: мы ответим на ваш запрос по ссылке выше. **Рекомендуем сохранить эту ссылку на будущее.**"
 
 #: src/strings.ts:962
